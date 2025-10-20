@@ -1,0 +1,106 @@
+   body {
+      font-family: sans-serif;
+      background-color: #ECC8AF;
+      margin: 0;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #CE796B;
+   }
+
+    form {
+      background-color: #E7AD99;
+      padding: 20px 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+      width: 320px;
+      border: 3px solid #CE796B;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-top: 14px;
+      text-align: center;
+    }
+
+      input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 10px;
+      border: 2px solid #CE796B;
+      margin-top: 5px;
+      transition: border-color 0.3s;
+    }
+
+    button {
+      background-color: #ECC8AF;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      width: 100%;
+      font-size: 1em;
+      margin-top: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #CE796B;
+    }
+
+    #guestList {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .guest-card {
+      background-color: #E7AD99;
+      border: 2px solid #CE796B;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+      padding: 15px;
+      width: 220px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .guest-card:hover {
+      transform: scale(1.05);
+    }
+
+    .guest-card h3 {
+      margin-bottom: 5px;
+      color: #CE796B;
+    }
+
+    .error {
+      color: #FF3C38;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+    } 
+
+    .success {
+      color: #519872;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+      h1 {
+      color: #CE796B;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #CE796B;
+      margin-top: 20px;
+    }
+      
